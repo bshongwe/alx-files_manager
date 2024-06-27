@@ -3,13 +3,9 @@
 <br></br>
 
 ## 📝 Project Details
-- **Weight**: 1
 - **Team**: Ernest Shongwe
 - **Start Date**: Jun 27, 2024, 6:00 AM
 - **End Date**: Jul 4, 2024, 6:00 AM
-- **Checker Release**: Jun 29, 2024, 12:00 AM
-- **Manual QA Review**: Request when done
-- **Auto Review**: At deadline
 
 This project summarizes this back-end trimester: authentication, NodeJS, MongoDB, Redis, pagination, and background processing.
 <br></br>
