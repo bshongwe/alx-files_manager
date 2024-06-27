@@ -4,7 +4,8 @@ import injectRoutes from './routes';
 const server = express();
 // const port = process.env.PORT || 5000;
 
-// server.use('/', router);
+// server.use('/', api);
+// app.use(express.json());
 injectMiddlewares(server);
 injectRoutes(server);
 
