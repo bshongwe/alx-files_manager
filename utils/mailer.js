@@ -15,9 +15,9 @@ const writeFileAsync = promisify(fs.writeFile);
 
 /**
  * Get and store new token after user authorization prompt,
- * executes given callback with the authorized OAuth2 client.
- * @param {google.auth.OAuth2} oAuth2Client The OAuth2 client to get token for.
- * @param {getEventsCallback} callback The callback for the authorized client.
+ * executes given callback with the authorized OAuth2 client
+ * @param {google.auth.OAuth2} oAuth2Client The OAuth2 client to get token for
+ * @param {getEventsCallback} callback The callback for the authorized client
  */
 async function getNewToken(oAuth2Client, callback) {
   const authUrl = oAuth2Client.generateAuthUrl({
@@ -48,8 +48,8 @@ async function getNewToken(oAuth2Client, callback) {
 }
 
 /**
- * Creates OAuth2 client with the given credentials, and executes
- * given callback function.
+ * Creates OAuth2 client with the given credentials,
+ * executes given callback function
  * @param {Object} credentials The authorization client credentials
  * @param {function} callback The callback to call using authorized client
  */
@@ -93,7 +93,7 @@ function sendMailService(auth, mail) {
 }
 
 /**
- * Contains routines for email delivery through GMail.
+ * Contains routines for email delivery through GMail
  */
 export default class Mailer {
   static checkAuth() {
