@@ -62,7 +62,7 @@ userQueue.process(async (job, done) => {
   }
   console.log(`Welcome ${user.email}!`);
   try {
-    const mailSubject = 'ALX-Files_Manager project by Ernest';
+    const mailSubject = 'ALX-Files_Manager project by Ernest Shongwe';
     const mailContent = [
       '<div>',
       '<h3>Hello {{user.name}},</h3>',
