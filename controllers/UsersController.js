@@ -11,17 +11,17 @@ export default class UsersController {
     const password = req.body ? req.body.password : null;
 
     if (!email) {
-      res.status(400).json({ error: 'invalid email' });
+      res.status(400).json({ error: 'Missing email' });
       return;
     }
     if (!password) {
-      res.status(400).json({ error: 'Invalid password' });
+      res.status(400).json({ error: 'Missing password' });
       return;
     }
     const user = await (await dbClient.usersCollection()).findOne({ email });
 
     if (user) {
-      res.status(400).json({ error: 'Already exists' });
+      res.status(400).json({ error: 'Already exist' });
       return;
     }
     const insertionInfo = await (await dbClient.usersCollection())

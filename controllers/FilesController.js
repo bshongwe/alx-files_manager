@@ -97,7 +97,7 @@ export default class FilesController {
       ? process.env.FOLDER_PATH.trim()
       : joinPath(tmpdir(), DEFAULT_ROOT_FOLDER);
     // default baseDir == '/tmp/files_manager'
-[O    // or (on Windows) '%USERPROFILE%/AppData/Local/Temp/files_manager';
+    // or (on Windows) '%USERPROFILE%/AppData/Local/Temp/files_manager';
     const newFile = {
       userId: new mongoDBCore.BSON.ObjectId(userId),
       name,
