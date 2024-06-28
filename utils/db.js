@@ -1,9 +1,10 @@
 import mongodb from 'mongodb';
+// eslint-disable-next-line no-unused-vars
 import Collection from 'mongodb/lib/collection';
 import envLoader from './env_loader';
 
 /**
- * Represents a MongoDB client
+ * Represents MongoDB client
  */
 class DBClient {
   /**
@@ -45,7 +46,7 @@ class DBClient {
   }
 
   /**
-   * Retrieves reference to `users` collection
+   * Retrieves a reference to `users` collection.
    * @returns {Promise<Collection>}
    */
   async usersCollection() {
