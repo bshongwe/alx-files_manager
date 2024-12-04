@@ -1,4 +1,9 @@
 # 📂 0x04. Files Manager
+![Visits Badge](https://badges.pufler.dev/visits/bshongwe/alx-files_manager)
+![GitHub Repo Stars](https://img.shields.io/github/stars/bshongwe/alx-files_manager)
+![GitHub Forks](https://img.shields.io/github/forks/bshongwe/alx-files_manager)
+![GitHub Issues](https://img.shields.io/github/issues/bshongwe/alx-files_manager)
+![GitHub License](https://img.shields.io/github/license/bshongwe/alx-files_manager)
 `Back-end` `JavaScript` `ES6` `NoSQL` `MongoDB` `Redis` `NodeJS` `ExpressJS` `Kue`
 <br></br>
 
